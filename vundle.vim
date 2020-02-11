@@ -24,7 +24,8 @@ Plug 'altercation/vim-colors-solarized'
 Plug 'tpope/vim-unimpaired'
 Plug 'mattn/emmet-vim'
 Plug 'bling/vim-airline'
-Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
+Plug 'junegunn/fzf', { 'do': './install --bin' }
+Plug 'junegunn/fzf.vim'
 Plug 'szw/vim-tags'
 Plug 'tpope/vim-dispatch'
 Plug 'vim-airline/vim-airline-themes'
@@ -32,6 +33,13 @@ Plug 'neomake/neomake'
 Plug 'SirVer/ultisnips'
 Plug 'rafaelfranca/vim-snippets'
 Plug 'tpope/vim-rhubarb'
+Plug 'akitaonrails/snipmate.vim'
+Plug 'mattn/gist-vim'
+Plug 'mattn/webapi-vim'
+Plug 'scrooloose/syntastic'
+Plug 'slim-template/vim-slim'
+Plug 'digitaltoad/vim-pug'
+Plug 'dense-analysis/ale'
 
 " All of your Plugins must be added before the following line
 call plug#end()
